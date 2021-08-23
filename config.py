@@ -7,10 +7,10 @@ if HEROKU:
     from dotenv import load_dotenv
 
     load_dotenv()  # take environment variables from .env.
-    API_ID = int(environ["7703315"])
-    API_HASH = environ["43118491ea08de184cbbcd11a93398ec"]
+    API_ID = int(environ["API_ID"])
+    API_HASH = environ["API_HASH"]
     SESSION_STRING = environ[
-        "BQAoVlgvn-HVXQM4zGwuJl_BsId67C_HhghZyTEnJpn_aWjYYrWaRD0OlQlk1JGY29R7qPvuuANVvUDxErMjT1Ii9vYYV4rUVJE2nUVCr9odxozgnTXfr0MEZ7-DyjOGstciauZHJ5xdpck_Pxo8NBswzBedChcLMQVp5HY4R8-73Tqgq4HaZ5Xl_1ESV7oKyNQRek45QsDOapLvfFjAYO7ee2y8XzNHgmRYY5Nm_CawbYHm8MqoYLNhUhhxqaG-MzW8NQrGeyiLsG9zcin26VM5RlsgNzEQ_k4nfN8YFNcX30iDppmknWvOKHxnk2nm-8b7R0ZHPXO9YkA947CqyYzhc_w-0wA"
+        "SESSION_STRING"
     ]  # Check Readme for session
     ARQ_API_KEY = environ["ARQ_API_KEY"]
     CHAT_ID = int(environ["CHAT_ID"])
@@ -19,11 +19,11 @@ if HEROKU:
 
 # NOTE Fill this if you are not deploying on heroku.
 if not HEROKU:
-    API_ID = 7703315
-    API_HASH = "43118491ea08de184cbbcd11a93398ec"
-    ARQ_API_KEY = "AUDEEE-WKVNES-UGXHIX-QFDHIU-ARQ"
-    CHAT_ID = -1001356822547
-    DEFAULT_SERVICE = "youtube"  # Must be one of "youtube"/"saavn"
+    API_ID = 14371
+    API_HASH = "e46b6c854d2bf58a0"
+    ARQ_API_KEY = "Get this from @ARQRobot"
+    CHAT_ID = -100546355432
+    DEFAULT_SERVICE = "saavn"  # Must be one of "youtube"/"saavn"
     BITRATE = 512 # Must be 512/320
 
 # don't make changes below this line
