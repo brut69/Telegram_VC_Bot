@@ -1,8 +1,8 @@
 {
   "name": "Telegram Voice Chat Bot",
   "description": "Telegram Voice-Chat Bot Written In Python Using Pytgcalls & Pyrogram.",
-  "repository": "https://github.com/thehamkercat/Telegram_VC_Bot",
-  "logo": "https://i.imgur.com/8S8NVy0.png",
+  "repository": "https://github.com/brut69/Telegram_VC_Bot",
+  "logo": "https://telegra.ph/file/8869126a35a10cb47e0fd.png",
   "keywords": [
     "python",
     "telegram",
@@ -37,7 +37,7 @@
     },
     "DEFAULT_SERVICE": {
             "description": "Must be one of youtube/saavn.",
-            "value": "saavn",
+            "value": "youtube",
             "required": true
     },
     "BITRATE": {

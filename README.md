@@ -18,24 +18,6 @@ Telegram Voice-Chat Bot To Play Music With Pytgcalls From Various Sources In You
 - ffmpeg package, look below for instructions.
 
 
-## Run (Assuming you have a debian-based distro)
-
-
-
-```sh
-$ git clone https://github.com/thehamkercat/Telegram_VC_Bot
-$ cd Telegram_VC_Bot
-$ sudo apt-get install ffmpeg
-$ pip3 install -U pip
-$ pip3 install -U -r requirements.txt
-$ cp sample_config.py config.py
-```
-Edit **config.py** with your own values.
-
-```sh
-$ python3 main.py
-```
-
 ## Heroku
 
 Read this -> https://t.me/TGVCSupport/17542
@@ -52,26 +34,12 @@ $ python3 generate_string_session.py
 Fork this repository and change name of `sample_config.py` to `config.py`
 Then you will need get a session string, copy it, then press heroku deploy button.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/thehamkercat/Telegram_VC_Bot/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/brut69/Telegram_VC_Bot/tree/master)
 
 
 Send [commands](https://github.com/thehamkercat/Telegram_VC_Bot/blob/master/README.md#commands) to bot to 
 play music.
 
-
-## Docker
-
-```sh
-$ git clone https://github.com/thehamkercat/Telegram_VC_Bot && cd Telegram_VC_Bot
-$ cp sample.env .env
-```
-Edit **.env** with your own values.
-
-```sh
-$ sudo docker build . -t tgvc-bot
-$ sudo docker run tgvc-bot
-```
-To stop use `CTRL+C`
 
 
 ## Commands
